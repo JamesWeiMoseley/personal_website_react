@@ -1,4 +1,4 @@
-# This is the repository for my personal website. &#127983;
+# This is the repository for my personal website. &#127920;
 
 It was created with react and deployed on heroku.  
 
