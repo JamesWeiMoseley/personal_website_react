@@ -5,8 +5,8 @@ It was created with react and deployed on heroku.
 Visit the site here:
 https://personal-web-james.herokuapp.com/
 
-React version 17.0.2
-Made in VS Code 1.56.2
+React version 17.0.2 <br>
+VS Code version 1.56.2
 
 
 <hr>
