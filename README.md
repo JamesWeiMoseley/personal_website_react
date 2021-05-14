@@ -1,4 +1,4 @@
-# This is the repository for my personal website. 
+# This is the repository for my personal website. U+1F917	
 
 It was created with react and deployed on heroku.  
 
