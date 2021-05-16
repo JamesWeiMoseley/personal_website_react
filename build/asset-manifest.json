@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49829a78.chunk.css",
+    "main.js": "/static/js/main.b059eb85.chunk.js",
+    "main.js.map": "/static/js/main.b059eb85.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d423ee3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d423ee3e.js.map",
+    "static/js/2.b525494a.chunk.js": "/static/js/2.b525494a.chunk.js",
+    "static/js/2.b525494a.chunk.js.map": "/static/js/2.b525494a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.49829a78.chunk.css.map": "/static/css/main.49829a78.chunk.css.map",
+    "static/js/2.b525494a.chunk.js.LICENSE.txt": "/static/js/2.b525494a.chunk.js.LICENSE.txt",
+    "static/media/James_Moseley_resume.3fe08c8f.pdf": "/static/media/James_Moseley_resume.3fe08c8f.pdf",
+    "static/media/hero.css": "/static/media/ocean.47853d68.jpg",
+    "static/media/snow.55dd829c.jpg": "/static/media/snow.55dd829c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d423ee3e.js",
+    "static/js/2.b525494a.chunk.js",
+    "static/css/main.49829a78.chunk.css",
+    "static/js/main.b059eb85.chunk.js"
+  ]
+}
