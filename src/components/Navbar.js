@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { Button } from './Button.js';
 import './Navbar.css';
 import Pdf from '../attachments/James_Moseley_resume.pdf'
 

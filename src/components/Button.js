@@ -1,7 +1,6 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-scroll';
-import { HashLink } from 'react-router-hash-link';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 

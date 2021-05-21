@@ -14,7 +14,7 @@ function Cards() {
               text='Sudoku GUI Interactive Game: the classic sudoku puzzle game. The application is written 
               in python3 using pygames for the GUI. Go ahead and try it!'
               label='Python3, Pygames'
-              path='/sudoku/#s_top'
+              path='sudoku'
             />
             {/* </ul>
             <ul className='cards__items'> */}

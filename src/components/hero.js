@@ -4,7 +4,6 @@ import { Button } from './Button'
 import { Button2 } from './Button2'
 import Button3 from './Button3';
 import './hero.css';
-import { Link } from "react-scroll";
 
 function hero() {
     return (

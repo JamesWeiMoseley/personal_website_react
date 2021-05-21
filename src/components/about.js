@@ -1,6 +1,5 @@
 import React from 'react';
 import './Cards.css';
-import CardItem from './CardItem';
 import pic from '../background-images/snow.jpg'
 
 
