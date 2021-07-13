@@ -25,10 +25,11 @@ function About() {
 
       <h3>My Skills</h3>
       <p>
-          Languages: Java, Python, HTML, CSS, JavaScript, C, C++
+          Languages: Java, Python, HTML, CSS, JavaScript, C, C++, Dart
       </p>
+      <p>Frameworks/Libraries: Bootstrap, Material UI, Express.js, Next.js, Redux, REACT, Flutter </p>
       <p>
-      Tools: Linux, Git, node.js, Bootstrap, Bukkit, Eclipse, MySQL, NoSQL, React
+      Tools: Linux, Git, node.js, Bukkit, Eclipse, VSCode, Docker, MySQL, NoSQL, Heroku
       </p>
 
       <h3> My Interests</h3>

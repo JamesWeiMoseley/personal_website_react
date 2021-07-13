@@ -8,6 +8,7 @@ import Pdf from '../attachments/James_Moseley_resume.pdf'
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
 
@@ -27,9 +28,19 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+    const changeBackground = () => {
+        if(window.scrollY > 200) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
         <>
-            <nav className="navbar">
+            <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
                     <HashLink to="/#top" className="navbar-logo" onClick={closeMobileMenu}>
                         James 
