@@ -1,17 +1,17 @@
-import React from 'react'
-import './Button.css'
-import { Link } from 'react-scroll'
+import React from "react";
+import "./Button.css";
+import Pdf from "../attachments/james_moseley_resume.pdf";
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ["btn--medium", "btn--large"];
 
-export const Button2 = ({
+export const Button3 = ({
   children,
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -20,8 +20,7 @@ export const Button2 = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='p' className='btn-mobile' activeClass="active" 
-        spy={true} smooth={true} offset={-100} duraction={400}>
+    <a href={Pdf} target="_blank" className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -29,9 +28,8 @@ export const Button2 = ({
       >
         {children}
       </button>
-    </Link>
-    
+    </a>
   );
 };
 
-export default Button2
+export default Button3;

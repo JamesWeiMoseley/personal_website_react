@@ -1,53 +1,100 @@
-import React from 'react';
-import './Cards.css';
-import pic from '../background-images/snow.jpg'
-
+import React from "react";
+import "./Cards.css";
 
 function About() {
   return (
-    <div id="about" className='about'>
-      <h1>About Me</h1>
-      <table> 
-      <tr>
-        <td className="td1">
-        <img src={pic} alt="pic" className='photo'/>
-        </td>
-        <td className="td2">
-        <p>Hello my name is James Moseley. I am a full stack engineer. 
-          I live in Renton, Washington.
-      </p>
-
-      <h3>Education</h3>
-      <p>
-          Oregon State University class of 2022
-      </p>
-      <p> Computer Science</p>
-
-      <h3>My Skills</h3>
-      <p>
-          Languages: Java, Python, HTML, CSS, JavaScript, C, C++, Dart
-      </p>
-      <p>Frameworks/Libraries: Bootstrap, Material UI, Express.js, Next.js, Redux, REACT, Flutter </p>
-      <p>
-      Tools: Linux, Git, node.js, Bukkit, Eclipse, VSCode, Docker, MySQL, NoSQL, Heroku
-      </p>
-
-      <h3> My Interests</h3>
-      <p>
-      Golf , Star Wars ,  Dogs , Boba , 
-      Traveling (currently planning for 2021 Hawaii trip – recommendations welcome!)</p>
-      <p> and the Seattle Seahawks <i className='fas fa-football-ball'/>
-      </p>
-
-      <h3>Contact</h3>
-      <br></br>
-      <a className='email'>james.wei.moseley@gmail.com</a>
-        </td>
-      </tr>
-
-      </table>    
-      
+    <div id="about" className="about">
+      <h2>Skills and Technologies</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <h3>Languages</h3>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Dart</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <h3>Frameworks/Libraries</h3>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <ul>
+              <li>REACT</li>
+              <li>Flutter</li>
+              <li>Redux</li>
+              <li>Bootstrap</li>
+              <li>Material UI</li>
+              <li>Express.js</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <h3>Tools</h3>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <ul>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>VSCode</li>
+              <li>Docker</li>
+              <li>Bukkit</li>
+              <li>Eclipse</li>
+              <li>MySQL</li>
+              <li>NoSQL</li>
+              <li>Heroku</li>
+              <li>Firebase</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
   );
 }
 

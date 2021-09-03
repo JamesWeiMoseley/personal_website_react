@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .home,
@@ -28,7 +28,7 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 5rem;
-  margin-top: -80px;
+  margin-top: -90px;
   text-shadow: 0 6px 20px rgb(1, 1, 2);
 }
 
@@ -54,17 +54,13 @@
   width: 75%;
   margin: auto;
   box-shadow: 0 10px 40px rgba(2, 5, 9, 0.961);
-  padding: .5rem;
+  padding: 0.5rem;
 }
-
 
 .sudoku__wrapper {
   width: 100%;
-  background-image: url('background-images/ocean.jpg'); 
-  margin-top: -80px;
-  /* background-color: #edeae5c6; */
+  margin-top: -90px;
 }
-
 
 .sudoku__container__1 {
   width: 75%;
@@ -72,13 +68,10 @@
   font-size: 20px;
   padding-bottom: 1rem;
   padding-top: 3rem;
-  
 }
 
-
 .contact {
-  background-image: url('background-images/ocean.jpg'); 
-  background-color: #FEF9C7;
+  background-color: #e3eaed;
   background-position: fixed;
   background-attachment: fixed;
   background-size: cover;
@@ -88,7 +81,7 @@
   flex-direction: column;
   padding-bottom: 20rem;
   font-size: 2rem;
-  margin-top: -80px;
+  margin-top: -90px;
 }
 
 .contact__container {

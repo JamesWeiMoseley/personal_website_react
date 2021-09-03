@@ -1,6 +1,5 @@
 .navbar {
-  /* background-color: rgb(65, 113, 171, 0.75); */
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,18 +10,9 @@
 }
 
 .navbar.active {
-  background: linear-gradient(90deg, rgb(52, 101, 155, .95), rgb(72, 119, 172, .95));
+  background: linear-gradient(90deg, #40c4ff, #1f98f4);
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  max-width: 1500px;
-}
-
-/* left words */
 .navbar-logo {
   color: #fff;
   justify-self: start;
@@ -38,13 +28,20 @@
   text-shadow: 0 6px 20px rgb(1, 1, 2);
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
 
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 100vw;
   justify-content: end;
 }
 
@@ -64,7 +61,6 @@
 .x-active-navbar:hover {
   text-shadow: 0 6px 20px rgb(1, 1, 2);
 }
-
 
 .nav-links {
   color: #e3eaed;
@@ -99,7 +95,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .NavbarItems {
     position: relative;
     background-color: green;
@@ -120,7 +116,7 @@
   }
 
   .nav-menu.active {
-    background-color: #5387ce;
+    background-color: #40c4ff;
     left: 0;
     opacity: 1;
     transition: all 0.3s ease;
